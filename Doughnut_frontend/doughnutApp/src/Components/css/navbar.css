@@ -1,0 +1,83 @@
+.topnav{
+    background-color: #FEFDFD;
+}
+
+.topnav table{
+    float: right;
+}
+
+.topnav a{
+    float: right;
+    color: #7a4b3d;
+    text-align: center;
+    padding: 14px ;
+    font-size: 16px;
+    text-decoration: none;
+    font-family: "Morandi Regular", fantasy;
+    border-radius: 28px;
+}
+
+.topnav a:hover{
+    background-color: #F9E9E5;
+}
+.search{
+    border-radius: 28px;
+    background-color:#d6d6d6;
+    padding: 1px;
+    width: max-content;
+    float: right;
+    border: 1px;
+    margin-top: 5px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.search input[type="text"]{
+    padding: 13px;
+    float: right;
+    font-family: "Morandi Regular", fantasy;
+    font-size: 13px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    color: #444444;
+    border: none;
+    background: transparent;
+    outline: none;
+    
+}
+.search img{
+    float: right;
+    margin-left: 20px;
+    align-items: center;
+    margin-top: 10px;   
+}
+
+.icon{
+    float: right;
+    margin-top: 14px;    
+}
+
+.icon img{
+    width: 20px;
+    align-items: center;
+}
+
+.icon b{
+    padding:8px;
+    margin-right: 20px;
+    margin-left: -10px;
+    border-radius:28px;
+}
+
+.icon a{
+    padding: 8px;
+    border-radius: 28px;    
+}
+.icon a:hover{
+    background-color: #F9E9E5;
+}
+
+.icon b:hover{
+    background-color: #F9E9E5;
+}
