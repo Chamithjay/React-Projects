@@ -9,26 +9,37 @@ import line from './line.png';
 const NavigationBar = () => {
   return (
     <div>
-      <div className='icon'>
+      <div className='navbar'>
         <table>
-          <td><a href="#"><img src={heart}></img></a></td>
-          <td> <a href="#"><img src={bag}></img></a></td>
-          <td><c><img src={line}></img></c></td>
-          <td><b href="#"><img src={profile}></img></b></td>
-        </table>           
-      </div>
-      <div className='search'>
-          <input type="text"  placeholder="Search your Doughnut"></input>   
-          <img src={logo}></img>
-      </div>
-      <div className='topnav'>             
-        <table>
-          <tr>
-            <td><a href='#'>Our Story</a></td>
-            <td><a href='#'>Our Products</a></td>
-            <td><a href='#'>Contact</a></td>  
-          </tr>
-        </table>       
+          <td>
+            <div className='topnav'>             
+            <table>
+              <tr>
+                <td><a href='#'>Our Story</a></td>
+                <td><a href='#'>Our Products</a></td>
+                <td><a href='#'>Contact</a></td>  
+              </tr>
+            </table>       
+            </div>
+          </td>
+          
+          <td>
+            <div className='search'>
+              <input type="text"  placeholder="Search your Doughnut"></input>   
+              <img src={logo}></img>
+            </div>
+          </td>
+          <td>
+            <div className='icon'>
+            <table>
+              <td><a href="#"><img src={heart}></img></a></td>
+              <td> <a href="#"><img src={bag}></img></a></td>
+              <td><c><img src={line}></img></c></td>
+              <td><b href="#"><img src={profile}></img></b></td>
+            </table>           
+            </div>
+          </td>
+        </table>
       </div>
     </div>
   )
