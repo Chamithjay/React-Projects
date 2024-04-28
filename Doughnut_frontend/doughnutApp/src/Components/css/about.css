@@ -1,0 +1,25 @@
+.donut img{
+    height: 14cm;
+    width: 14cm;
+    border-radius: 80px;
+    float: left;
+    margin-left: 50px;
+}
+
+.text{
+    margin-left:750px;
+    padding-top: 100px;
+    margin-right: 100px;
+}
+
+.text h1{
+    font-family: "Cobbler Sans Bold",fantasy;
+    font-size: 60px;
+    color: #3E1C12;
+}
+
+.text a{
+    font-family: "Morandi Regular", fantasy;
+    color:#7a4b3d;
+    font-size: 23px;
+}
