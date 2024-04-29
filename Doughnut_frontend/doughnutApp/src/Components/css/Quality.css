@@ -1,18 +1,18 @@
-.donut{
+.donut2{
     background-color: #fefdfd;
-    height: 645px;
-   
+    height: 600px;
+    padding-top: 20px;
     
    
 }
-.donut img{
+.donut2 img{
     height: 14cm;
     width: 14cm;
     border-radius: 80px;
     float: right;
-    margin-left: 50px;
+    margin-right: 30px;
 }
-.donut table{
+.donut2 table{
     float: right;    
     width: 100%;
     margin-top: 22px;   
@@ -22,7 +22,7 @@
     margin-left: 100px;
     margin-right: 150px;
     width: 700px;
-    margin-top: 50px;
+    margin-top: -100px;
 }
 
 .text h1{
@@ -31,24 +31,12 @@
     color: #3E1C12;
 }
 
-.text p{
+.text c{
     font-family: "Morandi Regular", fantasy;
     color:#7a4b3d;
-    font-size: 21px;
+    font-size: 18px;
 }
-.text button{
-    
-    border-radius: 30px;
-    width: 140px;
-    height: 55px;
-    font-family: "Montserrat ",fantasy;
-    font-size: 17px;
-    color:#7a4b3d ;
-    background-color: #fefdfd;
-    border-color: #7a4b3d;
-    
-
-}
-.text button:hover{
-    background-color:#F9E9E5 ;
+.text b img{
+    width: 30px;
+    height: 30px;
 }

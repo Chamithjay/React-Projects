@@ -15,6 +15,7 @@ const NavigationBar = () => {
             <div className='topnav'>             
             <table>
               <tr>
+                <td><a href='#'>Home</a></td>
                 <td><a href='#'>Our Story</a></td>
                 <td><a href='#'>Our Products</a></td>
                 <td><a href='#'>Contact</a></td>  
