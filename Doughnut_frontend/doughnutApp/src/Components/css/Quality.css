@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 .donut2{
     background-color: #fefdfd;
     height: 600px;
@@ -26,13 +27,13 @@
 }
 
 .text h1{
-    font-family: "Cobbler Sans Bold",fantasy;
+    font-family: "Itim", cursive;
     font-size: 60px;
     color: #3E1C12;
 }
 
 .text c{
-    font-family: "Morandi Regular", fantasy;
+    font-family: "Montserrat", fantasy;
     color:#7a4b3d;
     font-size: 18px;
 }

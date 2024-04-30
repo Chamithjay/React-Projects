@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 .navbar{
     float: right;
     background-color: #fefdfd;
@@ -18,7 +19,7 @@
     text-decoration: none;
     font-family: "Montserrat", fantasy;
     border-radius: 28px;
-    width: 95px;
+    width: 108px;
 }
 
 .topnav a:hover{
@@ -35,12 +36,13 @@
     margin-left: 40px;
     margin-right: 40px;
     margin-bottom: 2px;
+    font-family: "Montserrat", fantasy;
 }
 
 .search input[type="text"]{
     padding: 13px;
     float: right;
-    font-family: "Morandi Regular", fantasy;
+    font-family: "Montserrat", fantasy;
     font-size: 13px;
     width: 250px;
     display: flex;

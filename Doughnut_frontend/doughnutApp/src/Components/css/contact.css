@@ -1,4 +1,20 @@
-.text{
-    height: 200px;
-    background-color:  #5c2111;
+.footer{
+    height: 300px;
+    background-color: #5c2111;
+    width: 100%;
+    font-family: "Montserrat", fantasy;
+}
+.footer p{
+    color: #FFFFFF;
+}
+.footer b{
+    color: #FFFFFF;
+    font-size: 18px;
+}
+.footer a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.td img{
+    width: 10px;
 }

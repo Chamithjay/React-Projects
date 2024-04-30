@@ -6,6 +6,7 @@ import heart from './heart.png';
 import profile from './profile.png';
 import line from './line.png';
 
+
 const NavigationBar = () => {
   return (
     <div>
