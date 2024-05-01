@@ -2,12 +2,16 @@
 .navbar{
     float: right;
     background-color: #fefdfd;
-    padding-left: 100%;    
+    
+    
+
 }
 
+
 .topnav table{
-    margin-right: auto;
-    background-color: #fefdfd;    
+    margin-right: 100%;
+    background-color: #fefdfd;  
+      
 }
 
 .topnav a{
