@@ -1,12 +1,12 @@
 import React from 'react'
 import './css/contact.css'
-import email from './email.svg';
-import call from './call.svg';
-import loc from './location.svg';
-import insta from './instagram.svg';
-import twit from './twitter.png';
-import fb from './fb.png';
-import donut from './donut.png';
+import email from './Images/email.svg';
+import call from './Images/call.svg';
+import loc from './Images/location.svg';
+import insta from './Images/instagram.svg';
+import twit from './Images/twitter.png';
+import fb from './Images/fb.png';
+import donut from './Images/donut.png';
 const Contact = () => {
     return (
         <div className='footer'>

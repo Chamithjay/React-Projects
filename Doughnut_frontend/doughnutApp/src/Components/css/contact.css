@@ -4,6 +4,7 @@
     width: 100%;
     font-family: "Montserrat", fantasy;
     padding-top: 100px;
+    float: right;
 }
 .footer p{
     color: #FFFFFF;

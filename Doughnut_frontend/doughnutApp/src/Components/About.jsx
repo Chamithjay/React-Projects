@@ -1,6 +1,6 @@
 import React from 'react'
 import './css/about.css'
-import donut from './d.jpg';
+import donut from './Images/d.jpg';
 const About = () => {
     return (
         <div className='donut'>

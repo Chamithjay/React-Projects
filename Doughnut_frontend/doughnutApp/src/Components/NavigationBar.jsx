@@ -1,10 +1,10 @@
 import React from 'react'
 import './css/navbar.css'
-import logo from './search.svg';
-import bag from './bag.png';
-import heart from './heart.png';
-import profile from './profile.png';
-import line from './line.png';
+import logo from './Images/search.svg';
+import bag from './Images/bag.png';
+import heart from './Images/heart.png';
+import profile from './Images/profile.png';
+import line from './Images/line.png';
 
 
 const NavigationBar = () => {

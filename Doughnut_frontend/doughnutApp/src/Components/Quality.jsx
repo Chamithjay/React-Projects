@@ -1,7 +1,7 @@
 import React from 'react'
 import './css/Quality.css'
-import donut from './donut2.jpg';
-import tick from './tick.png';
+import donut from './Images/donut2.jpg';
+import tick from './Images/tick.png';
 const Quality = () => {
     return (
         <div className='donut2'>
