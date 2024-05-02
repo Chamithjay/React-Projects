@@ -27,8 +27,9 @@ const NavigationBar = () => {
           
           <td>
             <div className='search'>
-              <input type="text"  placeholder="Search your Doughnut"></input>   
               <img src={logo}></img>
+              <input type="text"  placeholder="Search your Doughnut"></input>   
+              
             </div>
           </td>
           <td>

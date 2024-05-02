@@ -1,6 +1,6 @@
 import React from 'react'
 import './css/products.css'
-import sb from './Images/strawberry.jpg';
+import sb from './Images/strawberry.png';
 
 const Products = () => {
     return (
@@ -8,8 +8,7 @@ const Products = () => {
              <div class="card">
                 <img src={sb} ></img>
                 <div class="container">
-                    <h4><b>John Doe</b></h4>
-                    <p>Architect & Engineer</p>
+                    <h4><b>Strawberry Sufganiot</b></h4>
                 </div>
             </div> 
 

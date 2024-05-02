@@ -1,90 +1,79 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-.navbar{
+
+
+.navbar {
     float: right;
     background-color: #fefdfd;
-    
-    
-
 }
 
-
-.topnav table{
-    margin-right: 100%;
-    background-color: #fefdfd;  
-      
+.topnav table {
+    margin-right: 0;
+    background-color: #fefdfd;
 }
 
-.topnav a{
+.topnav a {
     float: right;
     color: #7a4b3d;
     text-align: center;
-    padding: 14px ;
+    padding: 14px;
     font-size: 16px;
     text-decoration: none;
     font-family: "Montserrat", fantasy;
     border-radius: 28px;
     width: 108px;
 }
-
 .topnav a:hover{
     background-color: #F9E9E5;
 }
-.search{
+
+.search {
     border-radius: 28px;
-    background-color:#d6d6d6;
+    background-color: #d6d6d6;
     padding: 1px;
-    width: max-content;
+    width: 100%; 
     float: right;
-    border: 1px;
     margin-top: 2px;
-    margin-left: 40px;
-    margin-right: 40px;
     margin-bottom: 2px;
     font-family: "Montserrat", fantasy;
 }
 
-.search input[type="text"]{
+.search input[type="text"] {
     padding: 13px;
-    float: right;
     font-family: "Montserrat", fantasy;
     font-size: 13px;
-    width: 250px;
-    display: flex;
-    align-items: center;
+    width: calc(100% - 80px); 
     color: #444444;
     border: none;
     background: transparent;
     outline: none;
-    
 }
-.search img{
-    float: right;
+
+.search img {
     margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: -8px;
+}
+
+.icon {
+    float: right;
+    margin-bottom: 7px;
     align-items: center;
-    margin-top: 10px;   
 }
 
-.icon{
-    float:right;
-    margin-bottom: 7px;  
-    align-items: center;  
-}
-
-.icon img{
+.icon img {
     width: 20px;
     align-items: center;
 }
 
-.icon b{
-    padding:8px;
-    margin-right: 25px;
-    margin-left: -10px;
-    border-radius:28px;
+.icon b {
+    padding: 8px;
+    margin-right: 10px; 
+    border-radius: 28px;
 }
 
-.icon a{
+.icon a {
     padding: 8px;
-    border-radius: 28px;    
+    border-radius: 28px;
 }
 .icon a:hover{
     background-color: #F9E9E5;
@@ -92,4 +81,16 @@
 
 .icon b:hover{
     background-color: #F9E9E5;
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        float: none;
+        width: 100%;
+    }
+
+    .search input[type="text"] {
+        width: calc(100% - 60px); 
+        
+    }
 }

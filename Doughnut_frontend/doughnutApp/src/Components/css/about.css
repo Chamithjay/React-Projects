@@ -1,56 +1,88 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
-.donut{
-    background-color: #fefdfd;
-    height: 645px;
-    float: right;
+
+
+.content-wrapper {
+  display: flex; 
+  flex-direction: column; 
+}
+
+
+.donut {
+  background-color: #fefdfd;
+  padding: 20px;
+
+  max-height: 645px;
+  
+}
+
+.donut img {
+  height: 30vw; 
+  width: 30vw;
+  border-radius: 80px;
+  margin-left: 60px;
+
+}
+
+.donut table {
+  width: 100%; 
+  margin-top: 22px;
+}
+
+
+.text {
+  margin: 20px auto;
+  padding: 20px; 
+  max-width: 700px; 
+}
+
+.text h1 {
+  font-family: "Itim", cursive;
+  font-size: calc(2rem + 2vw); 
+  color: #3E1C12;
+}
+
+.text p {
+  font-family: "Montserrat", fantasy;
+  color: #7a4b3d;
+  font-size: 1rem; 
+}
+
+.text button {
+  border-radius: 30px;
+  width: 7.3vw;
+  height: 2.86vw;
+  font-family: "Montserrat", fantasy;
+  font-size: 1rem; 
+  color: #7a4b3d;
+  background-color: #fefdfd;
+  border-color: #7a4b3d;
+  cursor: pointer; 
+}
+
+.text button:hover {
+  background-color: #F9E9E5;
+}
+
+
+@media only screen and (max-width: 768px) {
+ 
+  .donut,
+  .text button,
+  .text {
    
-}
-.donut img{
-    height: 14cm;
-    width: 14cm;
-    border-radius: 80px;
-    float: right;
-    margin-left: 50px;
-}
-.donut table{
-    float: right;    
-    width: 100%;
-    margin-top: 22px;   
+    margin: 10px auto;
+    padding: 10px;
+  }
+  .text h1 {
+    font-size: 2.5rem; 
+  }
+  .text p {
+    font-size: 0.8rem; 
+  }
 }
 
-.text{
-    margin-left: 100px;
-    margin-right: 150px;
-    width: 700px;
-    margin-top: 50px;
-}
 
-.text h1{
-    font-family: "Itim", cursive;
-    font-size: 60px;
-    color: #3E1C12;
+#more {
+  display: none;
 }
-
-.text p{
-    font-family: "Montserrat", fantasy;
-    color:#7a4b3d;
-    font-size: 18px;
-}
-.text button{
-    
-    border-radius: 30px;
-    width: 140px;
-    height: 55px;
-    font-family: "Montserrat ",fantasy;
-    font-size: 17px;
-    color:#7a4b3d ;
-    background-color: #fefdfd;
-    border-color: #7a4b3d;
-    
-
-}
-.text button:hover{
-    background-color:#F9E9E5 ;
-}
-#more {display: none;}
