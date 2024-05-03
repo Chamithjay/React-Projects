@@ -1,49 +1,50 @@
 .footer{
-    height: 300px;
+    height: auto;
     background-color: #5c2111;
     width: 100%;
     font-family: "Montserrat", fantasy;
-    padding-top: 100px;
+    padding-top: 6.51vw;
     float: right;
+    padding-bottom: 6vw;
 }
 .footer p{
     color: #FFFFFF;
 }
 .footer c img{
     background-color: #FFFFFF;
-    width: 85px;
-    height:80px;
-    border-radius: 40px;
-    padding-bottom: 5px;
-    margin-left:60px; 
+    width: 5.53vw;
+    height:5.2vw;
+    border-radius: 2.6vw;
+    padding-bottom: 0.32vw;
+    margin-left:3.9vw; 
 }
 .footer a{
     color: #FFFFFF;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 1rem;
     text-align: center;
 }
 .footer td{
     text-align: center;
-    padding-left: 60px;  
+    padding-left: 3.9vw;  
 }
 
 .logo img{
-    margin-right:-50px;
+    margin-right:-3.25vw;
     
 }
 .insta img{
-    width: 22px;
-    padding-top: 3px;
-    padding-right: 3px;
-    padding-left: 3px;
+    width: 1.43vw;
+    padding-top: 0.195vw;
+    padding-right: 0.195vw;
+    padding-left: 0.195vw;
     
 }
 
 .insta td{
-    padding:2px;
+    padding:0.13vw;
     background-color: #fefdfd;
-    border-radius: 25px;     
+    border-radius: 1.62vw;     
 }
 .botnav table{
     margin-left: 32%;
@@ -55,8 +56,8 @@
     float: center;
     color: #fefdfd;;
     text-align: center;
-    padding: 14px ;
-    font-size: 16px;
+    padding: 0.91vw;
+    font-size: 1rem;
     text-decoration: none;
     font-family: "Montserrat", fantasy;
     border-radius: 28px;
@@ -71,6 +72,11 @@
 .footer hr{
     margin-left: 4%;
     margin-right: 4%;
-    margin-top: 10px;
+    margin-top: 0.65vw;
     color:#fefdfd; ;
+}
+@media only screen and (max-width: 768px){
+    .botnav{
+        display: none;
+    }
 }

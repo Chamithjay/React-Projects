@@ -3,6 +3,7 @@
 .products {
   height: 540px;
   background-color: #fefdfd;
+  margin-bottom: 20px;
   
 }
 .products h1{
@@ -12,8 +13,9 @@
   color:#3E1C12;
 }
 .products table{
-  margin-left: 1vw;  
-  border-spacing: 60px 0px;
+  margin-left: auto;
+  
+  border-spacing: 70px 0px;
 }
 .products td{
   margin: 10vw;
@@ -33,11 +35,11 @@
   
 
   .container {
-    padding: 10px 63px;
+    padding: 0.5vw 4.1vw;
   }
   .container h4{
     font-family: "Itim", cursive;
-    font-size: 20px;
+    font-size: calc(1rem + 0.5vw);
     color: #7a4b3d;
     text-align: center;
   }
@@ -69,14 +71,35 @@
     background-color:#F9E9E5 ;
     padding-left: 5px;
     padding-right: 5px;
+    padding-top: 25px;
   }
 
   .card img{
     width:auto;
-    height: 210px;
+    height: 14vw;
     border-radius: 50px;
     display: block;
     margin-left: auto;
     margin-right: auto;  
     
   }
+  @media only screen and (max-width: 768px)  {
+    .card
+    .container button,
+    .container h4,
+    .products {
+      height: auto;  
+    }
+
+    .products table {
+        border-spacing: 1.96vw 0vw; 
+    }
+
+    .products td {
+        margin: 1vw;
+    }
+    
+      
+    
+}
+

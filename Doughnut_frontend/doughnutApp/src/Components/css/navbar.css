@@ -82,8 +82,8 @@
 .icon b:hover{
     background-color: #F9E9E5;
 }
-
-@media (max-width: 768px) {
+@media only screen and (max-width: 768px)  
+{
     .navbar {
         float: none;
         width: 100%;
@@ -93,4 +93,5 @@
         width: calc(100% - 60px); 
         
     }
+    
 }

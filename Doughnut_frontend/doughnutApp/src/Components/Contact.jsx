@@ -85,9 +85,10 @@ const Contact = () => {
                 <td><a href='#'>Our Products</a></td>
                 <td><a href='#'>Contact</a></td>  
               </tr>
-            </table>       
+            </table>  
+            <hr></hr>     
             </div>       
-            <hr></hr>
+            
         </div>
   )
 }

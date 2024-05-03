@@ -1,0 +1,17 @@
+.slides{
+    max-width: 98%;
+    position: relative;
+    margin: auto;
+  }
+.mySlides{
+    display: none;
+  }
+  .mySlides img{
+    width:100%;
+    
+  }
+  @media only screen and (max-width: 768px){
+  .slides {
+    max-width: 100%; 
+  }
+}

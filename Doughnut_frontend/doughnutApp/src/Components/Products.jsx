@@ -33,7 +33,7 @@ const Products = () => {
                         <div class="card">
                             <img src={cd} ></img>
                             <div class="container">
-                                <h4><b>Choco-Chaos</b></h4>
+                                <h4><b>Choco Chaos</b></h4>
                                 <button>Add to Cart</button>
                             </div>
                         </div> 
